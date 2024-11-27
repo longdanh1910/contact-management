@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+body {
+  background-image: url("https://cdn.tgdd.vn/hoi-dap/1370088/200-hinh-nen-powerpoint-anime-cuc-dang-yeu-dep-chat-luong-1-800x600.jpg");
+  background-size: cover; /* Phủ toàn màn hình */
+  background-repeat: no-repeat; /* Không lặp lại hình */
+  background-position: center; /* Căn giữa */
+  height: 100vh; /* Chiều cao toàn màn hình */
+  margin: 0; /* Xóa khoảng cách mặc định */
+}
+.custom-title {
+  color: #ff5733; /* Màu chữ */
+  font-size: 3rem; /* Kích thước chữ */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+  text-align: center; /* Căn giữa */
+  font-family: "Arial", sans-serif; /* Font chữ */
+  margin-top: 20px; /* Khoảng cách phía trên */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
